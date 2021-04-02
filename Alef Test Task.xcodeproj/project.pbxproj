@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6216AC1E2614C3D1009D9BA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6216AC1D2614C3D1009D9BA0 /* AppDelegate.swift */; };
+		6216AC202614C3D2009D9BA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6216AC1F2614C3D2009D9BA0 /* SceneDelegate.swift */; };
+		6216AC222614C3D2009D9BA0 /* PrivateInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6216AC212614C3D2009D9BA0 /* PrivateInfoController.swift */; };
+		6216AC252614C3D2009D9BA0 /* PrivateInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6216AC232614C3D2009D9BA0 /* PrivateInfo.storyboard */; };
+		6216AC282614C3D2009D9BA0 /* Alef_Test_Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6216AC262614C3D2009D9BA0 /* Alef_Test_Task.xcdatamodeld */; };
+		6216AC2A2614C3DA009D9BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6216AC292614C3DA009D9BA0 /* Assets.xcassets */; };
+		6216AC2D2614C3DA009D9BA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6216AC2B2614C3DA009D9BA0 /* LaunchScreen.storyboard */; };
+		623AE39D2617887B0053E4EE /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623AE39B2617887B0053E4EE /* Child.swift */; };
+		623AE3A6261795640053E4EE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 623AE3A5261795640053E4EE /* .gitignore */; };
+		62ADD7D2261653C6000F3BA3 /* ChildTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62ADD7D1261653C6000F3BA3 /* ChildTableViewCell.swift */; };
+		988EB5FC162D3F7D3DF32313 /* Pods_Alef_Test_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB813D7B8DF84DC5C9E1264E /* Pods_Alef_Test_Task.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09B96A6331EA1CF4D199D944 /* Pods-Alef Test Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alef Test Task.debug.xcconfig"; path = "Target Support Files/Pods-Alef Test Task/Pods-Alef Test Task.debug.xcconfig"; sourceTree = "<group>"; };
+		6216AC1A2614C3D1009D9BA0 /* Alef Test Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alef Test Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6216AC1D2614C3D1009D9BA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6216AC1F2614C3D2009D9BA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6216AC212614C3D2009D9BA0 /* PrivateInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateInfoController.swift; sourceTree = "<group>"; };
+		6216AC242614C3D2009D9BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PrivateInfo.storyboard; sourceTree = "<group>"; };
+		6216AC272614C3D2009D9BA0 /* Alef_Test_Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Alef_Test_Task.xcdatamodel; sourceTree = "<group>"; };
+		6216AC292614C3DA009D9BA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6216AC2C2614C3DA009D9BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6216AC2E2614C3DA009D9BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		623AE39B2617887B0053E4EE /* Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
+		623AE3A5261795640053E4EE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		62ADD7D1261653C6000F3BA3 /* ChildTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildTableViewCell.swift; sourceTree = "<group>"; };
+		8EDEB9FB6FB1A6107A567E02 /* Pods-Alef Test Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alef Test Task.release.xcconfig"; path = "Target Support Files/Pods-Alef Test Task/Pods-Alef Test Task.release.xcconfig"; sourceTree = "<group>"; };
+		DB813D7B8DF84DC5C9E1264E /* Pods_Alef_Test_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alef_Test_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6216AC172614C3D1009D9BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988EB5FC162D3F7D3DF32313 /* Pods_Alef_Test_Task.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17A6C617BF61493E5C759FD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09B96A6331EA1CF4D199D944 /* Pods-Alef Test Task.debug.xcconfig */,
+				8EDEB9FB6FB1A6107A567E02 /* Pods-Alef Test Task.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6216AC112614C3D1009D9BA0 = {
+			isa = PBXGroup;
+			children = (
+				623AE3A5261795640053E4EE /* .gitignore */,
+				6216AC1C2614C3D1009D9BA0 /* Alef Test Task */,
+				6216AC1B2614C3D1009D9BA0 /* Products */,
+				17A6C617BF61493E5C759FD9 /* Pods */,
+				BF3FE9E40819DFF37FCE6717 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6216AC1B2614C3D1009D9BA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6216AC1A2614C3D1009D9BA0 /* Alef Test Task.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6216AC1C2614C3D1009D9BA0 /* Alef Test Task */ = {
+			isa = PBXGroup;
+			children = (
+				6231725A261645FE00EA21D8 /* Model */,
+				6216AC3B2614C874009D9BA0 /* Resource */,
+				6216AC382614C5DA009D9BA0 /* PrivateInfoPage */,
+				6216AC372614C5BF009D9BA0 /* Application */,
+				6216AC2B2614C3DA009D9BA0 /* LaunchScreen.storyboard */,
+				6216AC2E2614C3DA009D9BA0 /* Info.plist */,
+			);
+			path = "Alef Test Task";
+			sourceTree = "<group>";
+		};
+		6216AC372614C5BF009D9BA0 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				6216AC1F2614C3D2009D9BA0 /* SceneDelegate.swift */,
+				6216AC1D2614C3D1009D9BA0 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		6216AC382614C5DA009D9BA0 /* PrivateInfoPage */ = {
+			isa = PBXGroup;
+			children = (
+				6216AC232614C3D2009D9BA0 /* PrivateInfo.storyboard */,
+				6216AC212614C3D2009D9BA0 /* PrivateInfoController.swift */,
+				62ADD7D1261653C6000F3BA3 /* ChildTableViewCell.swift */,
+			);
+			path = PrivateInfoPage;
+			sourceTree = "<group>";
+		};
+		6216AC3B2614C874009D9BA0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6216AC292614C3DA009D9BA0 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		6231725A261645FE00EA21D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6216AC262614C3D2009D9BA0 /* Alef_Test_Task.xcdatamodeld */,
+				623AE39B2617887B0053E4EE /* Child.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF3FE9E40819DFF37FCE6717 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB813D7B8DF84DC5C9E1264E /* Pods_Alef_Test_Task.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6216AC192614C3D1009D9BA0 /* Alef Test Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6216AC312614C3DA009D9BA0 /* Build configuration list for PBXNativeTarget "Alef Test Task" */;
+			buildPhases = (
+				DE174D10095DA4F018A1D7C1 /* [CP] Check Pods Manifest.lock */,
+				6216AC162614C3D1009D9BA0 /* Sources */,
+				6216AC172614C3D1009D9BA0 /* Frameworks */,
+				6216AC182614C3D1009D9BA0 /* Resources */,
+				9F9F8D4C1CA656E73380F954 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alef Test Task";
+			productName = "Alef Test Task";
+			productReference = 6216AC1A2614C3D1009D9BA0 /* Alef Test Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6216AC122614C3D1009D9BA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					6216AC192614C3D1009D9BA0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 6216AC152614C3D1009D9BA0 /* Build configuration list for PBXProject "Alef Test Task" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6216AC112614C3D1009D9BA0;
+			productRefGroup = 6216AC1B2614C3D1009D9BA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6216AC192614C3D1009D9BA0 /* Alef Test Task */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6216AC182614C3D1009D9BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623AE3A6261795640053E4EE /* .gitignore in Resources */,
+				6216AC2D2614C3DA009D9BA0 /* LaunchScreen.storyboard in Resources */,
+				6216AC2A2614C3DA009D9BA0 /* Assets.xcassets in Resources */,
+				6216AC252614C3D2009D9BA0 /* PrivateInfo.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9F9F8D4C1CA656E73380F954 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alef Test Task/Pods-Alef Test Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alef Test Task/Pods-Alef Test Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Alef Test Task/Pods-Alef Test Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE174D10095DA4F018A1D7C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alef Test Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6216AC162614C3D1009D9BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623AE39D2617887B0053E4EE /* Child.swift in Sources */,
+				6216AC282614C3D2009D9BA0 /* Alef_Test_Task.xcdatamodeld in Sources */,
+				6216AC222614C3D2009D9BA0 /* PrivateInfoController.swift in Sources */,
+				6216AC1E2614C3D1009D9BA0 /* AppDelegate.swift in Sources */,
+				6216AC202614C3D2009D9BA0 /* SceneDelegate.swift in Sources */,
+				62ADD7D2261653C6000F3BA3 /* ChildTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6216AC232614C3D2009D9BA0 /* PrivateInfo.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6216AC242614C3D2009D9BA0 /* Base */,
+			);
+			name = PrivateInfo.storyboard;
+			sourceTree = "<group>";
+		};
+		6216AC2B2614C3DA009D9BA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6216AC2C2614C3DA009D9BA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6216AC2F2614C3DA009D9BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6216AC302614C3DA009D9BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6216AC322614C3DA009D9BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09B96A6331EA1CF4D199D944 /* Pods-Alef Test Task.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQ2A8V8T56;
+				INFOPLIST_FILE = "Alef Test Task/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grekov.Alef-Test-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6216AC332614C3DA009D9BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EDEB9FB6FB1A6107A567E02 /* Pods-Alef Test Task.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQ2A8V8T56;
+				INFOPLIST_FILE = "Alef Test Task/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grekov.Alef-Test-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6216AC152614C3D1009D9BA0 /* Build configuration list for PBXProject "Alef Test Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6216AC2F2614C3DA009D9BA0 /* Debug */,
+				6216AC302614C3DA009D9BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6216AC312614C3DA009D9BA0 /* Build configuration list for PBXNativeTarget "Alef Test Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6216AC322614C3DA009D9BA0 /* Debug */,
+				6216AC332614C3DA009D9BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6216AC262614C3D2009D9BA0 /* Alef_Test_Task.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6216AC272614C3D2009D9BA0 /* Alef_Test_Task.xcdatamodel */,
+			);
+			currentVersion = 6216AC272614C3D2009D9BA0 /* Alef_Test_Task.xcdatamodel */;
+			path = Alef_Test_Task.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6216AC122614C3D1009D9BA0 /* Project object */;
+}
